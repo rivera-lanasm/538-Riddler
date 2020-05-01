@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m/root/538-Riddler/src/main/scala/greetings/newfile.scala:32:37: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Double[0m
+[0m[[0m[31merror[0m] [0m[0m required: Float[0m
+[0m[[0m[31merror[0m] [0m[0m        val t1: Float = (2.0*j +1.0)/(n + j + 1.0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
