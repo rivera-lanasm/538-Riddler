@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/root/538-Riddler/src/main/scala/greetings/newfile.scala:65:34: forward reference extends over definition of value poly2_expr[0m
-[0m[[0m[31merror[0m] [0m[0m        val poly2_expr: String = poly2.mkString(" + ")[0m
-[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/538-Riddler/src/main/scala/greetings/newfile.scala:75:9: a pure expression does nothing in statement position[0m
+[0m[[0m[33mwarn[0m] [0m[0m        poly2[0m
+[0m[[0m[33mwarn[0m] [0m[0m        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

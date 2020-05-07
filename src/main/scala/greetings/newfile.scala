@@ -36,46 +36,46 @@ object RiordanGeneratingFunction{
         }
 
 
-    def ballot_num(n: Int, j: Int): Double = {
+    def ballot_num(n: Int, j: Int): Int = {
 
         val t1: Double = (2.0*j +1.0)/(n + j + 1.0)
         
         val t2: Double = combinations(2*n, n+j)
-        t1*t2 
+        (t1*t2).toInt
         }
 
-    def RiordanPolynomial(order:Int): Unit = {
+    def RiordanPolynomial(order:Int): String = {
 
         val expr = s"(1-x)^$order"
-        val poly1 = UnivariateRing(Z, "x")(expr).toString
+        val poly1 = UnivariateRing(Z, "x")(expr)
 
         /**
         coefficient array 
         */
         val coeff_seq = for (j <- 0 to order) yield ballot_num(n = order, j = j).toString
-        println(coeff_seq)
 
         /**
         coefficient sign array 
         */
-        val sign_seq = for (j <- 0 to order) yield { (scala.math.pow(-1,j)) }
-        println(sign_seq)
+        val sign_seq = for (j <- 0 to order) yield { (scala.math.pow(-1,j)) match {case -1 => "-" case 1 => "+" case _ => "error"} }
 
         /**
         full coefficient array 
         */
-        val coeff_arr = (coeff_seq, sign_seq).zipped.map{ (a,b) => s"$b*x^$a" }
+        val coeff_arr = (coeff_seq, sign_seq).zipped.map{ (a,b) => s"$b$a*x" }
 
         /**
         exponent array 
         */
         val exp_seq = for (j <- 0 to order) yield ((j*(j+1))/2).toString
-        println(exp_seq)
+         
+        val poly2_arr = (exp_seq, coeff_arr).zipped.map{ (a,b) => s"$b^$a" }.mkString(" ")
+
+        val poly2 = UnivariateRing(Z, "x")(poly2_arr)
         
-        val poly2_arr = (exp_seq, coeff_seq).zipped.map{ (a,b) => s"$b*x^$a" }
-        //val poly2_expr: String = poly2_arr.mkString(" + ")
-        //val poly2 = UnivariateRing(Z, "x")(poly2_expr).toString
-        println(poly2_arr)
+        // final poly
+        val final_poly: String = (poly2/%poly1)._1.toString
+        final_poly
 
 
         }
