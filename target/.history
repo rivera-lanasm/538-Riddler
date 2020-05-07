@@ -3,3 +3,6 @@ test
 run
 scala
 run
+scala
+1+1
+run
