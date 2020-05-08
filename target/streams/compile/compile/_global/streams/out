@@ -1,4 +1,6 @@
-[0m[[0m[33mwarn[0m] [0m[0m/root/538-Riddler/src/main/scala/greetings/newfile.scala:75:9: a pure expression does nothing in statement position[0m
-[0m[[0m[33mwarn[0m] [0m[0m        poly2[0m
-[0m[[0m[33mwarn[0m] [0m[0m        ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m/root/538-Riddler/src/main/scala/greetings/newfile.scala:77:59: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : String[0m
+[0m[[0m[31merror[0m] [0m[0m required: Array[String][0m
+[0m[[0m[31merror[0m] [0m[0m        val final_poly: Array[String] = (poly2/%poly1)._1.toString[0m
+[0m[[0m[31merror[0m] [0m[0m                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
