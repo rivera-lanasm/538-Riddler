@@ -1,6 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/root/538-Riddler/src/main/scala/greetings/newfile.scala:77:59: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : String[0m
-[0m[[0m[31merror[0m] [0m[0m required: Array[String][0m
-[0m[[0m[31merror[0m] [0m[0m        val final_poly: Array[String] = (poly2/%poly1)._1.toString[0m
-[0m[[0m[31merror[0m] [0m[0m                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/538-Riddler/src/main/scala/robopizza.scala:15:22: not found: type File[0m
+[0m[[0m[31merror[0m] [0m[0m        csvwrite(new File("test.csv"), output )[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

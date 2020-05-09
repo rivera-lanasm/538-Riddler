@@ -44,7 +44,7 @@ object RiordanGeneratingFunction{
         (t1*t2).toInt
         }
 
-    def RiordanPolynomial(order:Int): Unit = {
+    def RiordanPolynomial(order:Int): Array[Double] = {
 
         val expr = s"(1-x)^$order"
         val poly1 = UnivariateRing(Z, "x")(expr)
@@ -74,12 +74,14 @@ object RiordanGeneratingFunction{
         val poly2 = UnivariateRing(Z, "x")(poly2_arr)
         
         // final poly
-        val final_poly = (poly2/%poly1)._1.toString.split("\\+")
+        val final_poly: Array[String] = (poly2/%poly1)._1.toString.split("\\+")
 
-
-        val distribution = for (p <- final_poly ) yield { p.replaceAll("\\*.*|x*.","") match {case "" => 1 case _ => p.replaceAll("\\*.*|x*.","")} }
-        //val distribution = for (p <- final_poly ) yield { p.replaceAll("\\*.*|x*.","")  }
-        println(distribution)
+        val distribution = for (p <- final_poly ) yield { p.replaceAll("\\*.*|x.*","")  }
+        val distribution_val: Array[Int] = for (p <- distribution ) yield { p match {case "" => 1 case _ => p.toInt } }
+        val distribution_total: Int = distribution_val.sum 
+         
+        val distribution_prob: Array[Double] = for (n <- distribution_val) yield { n.toDouble/distribution_total}
+        distribution_prob
 
         }
 
