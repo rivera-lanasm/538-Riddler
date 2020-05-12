@@ -6,7 +6,7 @@ using Scala for computation, Python for visualization
 **Also, an introduction to Scala for me**
 Here is a list of usefule Scala resources I used throughout this project
 [Alvin Alexander's Hello-Scala](https://hello-scala.com)
-- val capNames = for (name <- names) yield { name.tail.capitalize }
+ 
 
 
 [Rings: efficient Java/Scala library for polynomial rings](https://indico.jinr.ru/event/418/contributions/3386/attachments/2637/3412/main_short.pdf)

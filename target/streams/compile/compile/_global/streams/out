@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/root/538-Riddler/src/main/scala/robopizza.scala:15:22: not found: type File[0m
-[0m[[0m[31merror[0m] [0m[0m        csvwrite(new File("test.csv"), output )[0m
-[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/538-Riddler/src/main/scala/robopizza.scala:15:56: not found: value order[0m
+[0m[[0m[31merror[0m] [0m[0m        val f = new java.io.File(s"distribution_order_$order.csv")[0m
+[0m[[0m[31merror[0m] [0m[0m                                                       ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

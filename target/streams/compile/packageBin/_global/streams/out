@@ -1,15 +1,1 @@
-[0m[[0m[0mdebug[0m] [0m[0mPackaging /root/538-Riddler/target/scala-2.12/root-538-riddler_2.12-0.1.0-SNAPSHOT.jar ...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /root/538-Riddler/target/scala-2.12/classes[0m
-[0m[[0m[0mdebug[0m] [0m[0m	ChordIntersectionDistribution.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /root/538-Riddler/target/scala-2.12/classes/ChordIntersectionDistribution.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	ChordIntersectionDistribution$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /root/538-Riddler/target/scala-2.12/classes/ChordIntersectionDistribution$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	analytic[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /root/538-Riddler/target/scala-2.12/classes/analytic[0m
-[0m[[0m[0mdebug[0m] [0m[0m	analytic/RiordanGeneratingFunction$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /root/538-Riddler/target/scala-2.12/classes/analytic/RiordanGeneratingFunction$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	analytic/RiordanGeneratingFunction.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /root/538-Riddler/target/scala-2.12/classes/analytic/RiordanGeneratingFunction.class[0m
-[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
+[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: /root/538-Riddler/target/scala-2.12/root-538-riddler_2.12-0.1.0-SNAPSHOT.jar[0m
