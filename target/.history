@@ -22,3 +22,10 @@ console
 run
 console
 run
+run 4
+sbt run 4
+run 4
+run 10
+ls
+:q
+quit()

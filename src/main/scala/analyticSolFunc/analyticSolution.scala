@@ -10,7 +10,6 @@ import syntax._
 https://www.semion.io/doc/on-a-uniformly-random-chord-diagram-and-its-intersection-graph
 
 
-
 Tn(x) --> generating function yielding polynomial with coefficients, Tnk --> number of ways of choosing n pairs of points among 2n
 general points suchh that there are k intersections 
  

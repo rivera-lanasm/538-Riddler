@@ -1,4 +1,11 @@
-[0m[[0m[31merror[0m] [0m[0m/root/538-Riddler/src/main/scala/robopizza.scala:15:56: not found: value order[0m
-[0m[[0m[31merror[0m] [0m[0m        val f = new java.io.File(s"distribution_order_$order.csv")[0m
-[0m[[0m[31merror[0m] [0m[0m                                                       ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m/root/538-Riddler/src/main/scala/robopizza.scala:10:37: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0m        val order: String = args(0).toInt        [0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/538-Riddler/src/main/scala/robopizza.scala:12:91: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : String[0m
+[0m[[0m[31merror[0m] [0m[0m required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val analytic_distribution: Array[Double] = analytic_sol.RiordanPolynomial(order = order)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
