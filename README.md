@@ -1,3 +1,4 @@
+
 Solutions to 538 Riddler puzzles
 
 using Scala for computation, Python for visualization
@@ -12,4 +13,4 @@ Here is a list of usefule Scala resources I used throughout this project
 [Rings: efficient Java/Scala library for polynomial rings](https://indico.jinr.ru/event/418/contributions/3386/attachments/2637/3412/main_short.pdf)
 - Ring: a set of elements with "x" and "+" operations defined 
 
-
+dev only uses probablistic solutions
